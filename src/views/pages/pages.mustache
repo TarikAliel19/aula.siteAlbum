@@ -5,12 +5,20 @@
 {{/banner}}
 
 <div class="container list">
+    {{#list}}
     <div class="item">
-        <img src="images/Currents.jpg" class="item--image" />
-        <div class="item--name">Currents</div>
-        <div class="item--color">Tame Impala</div>
-        <div class="item--genre">Gênero: Alternativo/Indie</div>
-        <div class="item--genre">Ano: 2015</div>
+        <img src="images/{{image}}" class="item--image" />
+        <div class="item--name">{{name}}</div>
+        <div class="item--genre">{{album}}</div>
+        <div class="item--genre">{{desc}}</div>
+        <div class="item--genre">Ano:{{year}}</div>
     </div>
+    {{/list}}
 </div>
+
+{{^list}}
+    <div class="container no-list">
+        <h2> Não encontramos esse álbum disponíveis com esse nome </h2>
+    </div>
+{{/list}}
 {{>partials/footer}}

@@ -16,52 +16,59 @@ type Music = {
     name: string,
     year: number,
     desc: string
+    album: string
 }
 
 const data: Music[] = [
     {
         type: 'genero',
-        image: 'Currents .jpg',
+        image: 'Currents.jpg',
         name: 'Currents',
+        album: 'Tame Impala',
         year: 2015,
         desc: 'Alternativo'
         
     },
     {
         type: 'genero',
-        image: ' X.jfif',
-        name: ' Ed Sheeran',
+        image: 'X.jfif',
+        name: 'X',
+        album: 'Ed Sheeran',
         year: 2014,
         desc:"POP"
 
     },
     {
         type: 'novidades',
-        image: ' Abbey_Road.jpg',
-        name: ' The Beatles',
+        image: 'Abbey_Road.jpg',
+        name: 'Abbey Road',
+        album: 'The Beatles',
         year: 1969,
         desc:"Rock/Rock Pop"
 
     },
     {
         type: 'genero',
-        image: ' Graduation.jpg',
-        name: ' Kanye West',
+        image: 'Graduation.jpg',
+        name: 'Graduation',
+        album: 'Kanye West',
         year: 2007,
         desc:"Rap"
 
     },
     {
         type: 'genero',
-        image: ' Californication.jpg',
-        name: ' Ret Hot Chili Peppers',
+        image: 'Californication.jpg',
+        name: 'Californication',
+        album: 'Ret Hot Chili Peppers',
         year: 1999,
         desc: "Alternativo"
     },
     {
         type: 'genero',
         image: '50 cent.jfif',
-        name: ' 50 cent',
+        name: 'Get Rich or Die Tryin',
+        album: '50 cent',
         year: 2003,
         desc: 'Rap'
 
@@ -69,16 +76,18 @@ const data: Music[] = [
     {
         type: 'novidades',
         image: 'guns.jfif',
-        name: ' Guns N Roses',
+        name: 'Appetite for Destruction',
+        album: 'Guns N Roses',
         year: 1987,
-        desc: 'rock'
+        desc: 'Rock'
     },
     {
         type: 'genero',
-        image: ' Pearl Jam.jfif',
-        name: ' Pearl Jam',
+        image: 'Pearl Jam.jfif',
+        name: 'Ten',
+        album: 'Pearl Jam',
         year: 1991,
-        desc: 'grunge'
+        desc: 'Grunge'
 
     },
 
@@ -86,45 +95,51 @@ const data: Music[] = [
     {
         type: 'genero',
         image: 'Charli Brown.jfif',
-        name: ' Charli Brown',
+        name: 'Tâmo aí na atividade',
+        album: 'Charli Brown',
         year: 2004,
         desc: 'Alternativo',
 
     },
     {
         type: "novidades",
-        image: ' Lado B rappa.jfif',
-        name: ' O Rappa',
+        image: 'Lado B rappa.jfif',
+        name: 'Lado B Lado A',
+        album: 'O Rappa',
         year: 1999 ,
         desc: 'Rap Rock',
     },
     {
         type: 'genero',
-        image: ' Kendrick.jfif',
-        name: ' Kendrick Lamar',
+        image: 'Kendrick.jfif',
+        name: 'Good Kid, M.A.A.D City',
+        album: 'Kendrick Lamar',
         year: 2012,
         desc: "Hip HOP"
 
     },
     {
         type: 'novidades',
-        image: ' matue.jpg',
-        name: 'Matuê',
+        image: 'matue.jpg',
+        name: 'Máquina do Tempo',
+        album: 'Matuê',
         year: 2020, 
         desc:'Trap'
     },
     {        
         type: 'novidades',
         image: 'Nirvana.webp',
-        name: 'Nirvana',
+        name: 'nevermind',
+        album: 'Nirvana',
         year: 1991,
-        desc:"grunge"
+        desc:"Grunge"
 
     },
     {
         type: 'novidades',
-        image: ' The smiths.jpg',
-        name: 'The Smiths',
+        image: 'The smiths.jpg',
+        name: 'the queen is dead',
+        album: 'The Smiths',
         year: 1986,
         desc: 'Alternativo'
 
@@ -132,7 +147,8 @@ const data: Music[] = [
     {
        type: 'novidades',
         image: 'Foo_Fighters.jpg',
-        name: 'Foo Fighters',
+        name: 'the colour and the shape',
+        album: 'Foo Fighters',
         year: 1997,
         desc: 'Alternativo'
   
@@ -140,15 +156,17 @@ const data: Music[] = [
     {
        type: 'novidades',
         image: 'Tears.jfif',
-        name: 'Tears For Fears',
+        name: 'songs from the big chair',
+        album: 'Tears For Fears',
         year: 1985,
-        desc: 'rock'
+        desc: 'Rock'
 
     },
     {
         type: 'genero',
         image: 'Cazuza.jfif',
-        name: 'Cazuza',
+        name: 'Ideologia',
+        album: 'Cazuza',
         year: 1988,
         desc:'rock'
 
